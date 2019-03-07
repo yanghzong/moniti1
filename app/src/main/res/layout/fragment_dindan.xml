@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_map"
+        android:textSize="@dimen/sp_18"
+        android:text="定位"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/three_login"
+        android:textSize="@dimen/sp_18"
+        android:text="QQ登录"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/twocode"
+        android:text="二维码扫描"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed_text"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/shengchengtwocode"
+        android:text="二维码生成"/>
+    <ImageView
+        android:layout_width="@dimen/dp_250"
+        android:layout_height="@dimen/dp_250"
+        android:id="@+id/img_show"/>
+
+</LinearLayout>
